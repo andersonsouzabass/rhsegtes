@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design>
+    <page>
+        <format>a4</format>
+        <orientation>P</orientation>
+    </page>
+    <rectangle id="1">
+        <class>Rectangle</class>
+        <x>212</x>
+        <y>224</y>
+        <width>248</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="2">
+        <class>Rectangle</class>
+        <x>30</x>
+        <y>188</y>
+        <width>430</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="3">
+        <class>Rectangle</class>
+        <x>460</x>
+        <y>152</y>
+        <width>130</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="4">
+        <class>Rectangle</class>
+        <x>30</x>
+        <y>152</y>
+        <width>130</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="5">
+        <class>Rectangle</class>
+        <x>160</x>
+        <y>152</y>
+        <width>300</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="6">
+        <class>Rectangle</class>
+        <x>30</x>
+        <y>224</y>
+        <width>182</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="7">
+        <class>Rectangle</class>
+        <x>30</x>
+        <y>74</y>
+        <width>560</width>
+        <height>42</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="8">
+        <class>Rectangle</class>
+        <x>30</x>
+        <y>8</y>
+        <width>560</width>
+        <height>68</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <text id="9">
+        <class>Text</class>
+        <x>158</x>
+        <y>22</y>
+        <font>Times</font>
+        <size>11</size>
+        <text>                 &lt;b&gt;Secretaria de Saúde do Estado de Pernambuco
+Secretaria Executiva de Gestão do Trabalho e Educação na Saúde
+                        Diretoria Geral de Gestão do Trabalho
+                       Gerência de Administração de Pessoas&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="10">
+        <class>Text</class>
+        <x>192</x>
+        <y>126</y>
+        <font>Times</font>
+        <size>19</size>
+        <text>{tipo_servidor}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <image id="11">
+        <class>Image</class>
+        <x>236</x>
+        <y>548</y>
+        <width>131</width>
+        <height>96</height>
+        <file>app/images/concurso/ass_monica.png</file>
+    </image>
+    <text id="12">
+        <class>Text</class>
+        <x>222</x>
+        <y>515</y>
+        <font>Times</font>
+        <size>12</size>
+        <text>Recife, {dia}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="13">
+        <class>Text</class>
+        <x>78</x>
+        <y>734</y>
+        <font>Times</font>
+        <size>12</size>
+        <text>Ato de Nomeação: ATO {ato}
+Data da Publicação: {dt_publicacao}
+Data da Posse: {dt_posse}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <baseline id="14">
+        <class>Baseline</class>
+        <y>346</y>
+        <linewidth>4</linewidth>
+        <linecolor>#C0C0C0</linecolor>
+    </baseline>
+    <text id="15">
+        <class>Text</class>
+        <x>162</x>
+        <y>158</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;Nome:&lt;/b&gt;
+{nome}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="16">
+        <class>Text</class>
+        <x>32</x>
+        <y>230</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;Cargo:&lt;/b&gt;
+{cargo}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="17">
+        <class>Text</class>
+        <x>216</x>
+        <y>230</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;Função:&lt;/b&gt;
+{especialidade}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <image id="18">
+        <class>Image</class>
+        <x>44</x>
+        <y>8</y>
+        <width>70</width>
+        <height>66</height>
+        <file></file>
+    </image>
+    <rectangle id="19">
+        <class>Rectangle</class>
+        <x>460</x>
+        <y>188</y>
+        <width>130</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="20">
+        <class>Rectangle</class>
+        <x>460</x>
+        <y>224</y>
+        <width>130</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <text id="21">
+        <class>Text</class>
+        <x>180</x>
+        <y>92</y>
+        <font>Arial</font>
+        <size>21</size>
+        <text>&lt;b&gt;IDENTIFICAÇÃO FUNCIONAL&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="22">
+        <class>Text</class>
+        <x>32</x>
+        <y>158</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;Matrícula:&lt;/b&gt;
+{matricula}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="23">
+        <class>Text</class>
+        <x>462</x>
+        <y>158</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;Admissão:&lt;/b&gt;
+{admissao}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="24">
+        <class>Text</class>
+        <x>32</x>
+        <y>194</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;Unidade:&lt;/b&gt;
+{unidade}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="25">
+        <class>Text</class>
+        <x>462</x>
+        <y>194</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;GERES:&lt;/b&gt;
+{geres}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="26">
+        <class>Text</class>
+        <x>462</x>
+        <y>230</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;Situação:&lt;/b&gt;
+{situacao}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+</design>

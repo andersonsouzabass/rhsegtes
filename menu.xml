@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <menuitem label="_t{Administration}">
+    <icon>fas:home fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>SystemAdministrationDashboard</action>
+        <icon>fas:tachometer-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="Perfil de Usuário">
+        <action>SystemGroupList</action>
+        <icon>fas:users fa-fw</icon>
+      </menuitem>
+      <menuitem label="Acessos">
+        <action>SystemProgramList</action>
+        <icon>far:file-code fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Users}">
+        <action>SystemUserList</action>
+        <icon>fas:user fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Menu editor}">
+        <action>SystemMenuEditor</action>
+        <icon>far:edit fa-fw</icon>
+      </menuitem>
+
+      <menuitem label="_t{Preferences}">
+        <action>SystemPreferenceForm#method=onEdit</action>
+        <icon>fas:cog fa-fw</icon>
+      </menuitem>
+      <menuitem label="Relatório de Log">
+        <action>RelatorioLogReport</action>
+        <icon>fas:cog fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Cargos e Funções">
+    <icon>fas:address-book fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>SystemAdministrationDashboard</action>
+        <icon>fas:tachometer-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="Símbolos">
+        <action>SimboloList</action>
+        <icon>fas:hand-point-right fa-fw</icon>
+      </menuitem>
+      <menuitem label="Regime de Trabalho">
+        <action>RegimeList</action>
+        <icon>fas:clock fa-fw</icon>
+      </menuitem>
+      <menuitem label="Especialidade">
+        <action>EspecialidadeList</action>
+        <icon>fas:bread-slice fa-fw</icon>
+      </menuitem>
+      <menuitem label="Cargo">
+        <action>CargoList</action>
+        <icon>fas:broom fa-fw</icon>
+      </menuitem>
+      <menuitem label="Função">
+        <action>FuncaoList</action>
+        <icon>fas:address-card fa-fw</icon>
+      </menuitem>
+      <menuitem label="Tabela de Remuneração">
+        <action>SalarioList</action>
+        <icon>fas:money-bill-wave fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Unidades de Saúde">
+    <icon>fas:hospital-alt fa-fw</icon>
+    <menu>
+      <menuitem label="GERES">
+        <action>GeresList</action>
+        <icon>fas:building fa-fw</icon>
+      </menuitem>
+      <menuitem label="Tipo da Unidade">
+        <action>TipoUnidadeList</action>
+        <icon>fas:building fa-fw</icon>
+      </menuitem>
+      <menuitem label="Perfil da Unidade">
+        <action>GrupoList</action>
+        <icon>fas:building fa-fw</icon>
+      </menuitem>
+      <menuitem label="Unidades de Saúde">
+        <action>PessoaList</action>
+        <icon>fas:hospital fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Concurso">
+    <icon>fas:pen fa-fw</icon>
+    <menu>
+      <menuitem label="Visão">
+        <action>DashboardConcurso</action>
+        <icon>fas:chart-area fa-fw</icon>
+      </menuitem>
+      <menuitem label="Relatório Nominal">
+        <action>RelatorioConcurso</action>
+        <icon>fas:chart-bar fa-fw</icon>
+      </menuitem>
+      <menuitem label="Aprovados">
+        <action>AprovadosList</action>
+        <icon>fas:users fa-fw</icon>
+      </menuitem>
+      <menuitem label="Situação do Nomeado">
+        <action>SituacaoConcursoList</action>
+        <icon>fas:anchor fa-fw</icon>
+      </menuitem>
+      <menuitem label="Justificativa do Ato">
+        <action>JustificaAtoList</action>
+        <icon>fas:sign-out-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="Ato">
+        <action>AtoList</action>
+        <icon>fas:align-justify fa-fw</icon>
+      </menuitem>
+      <menuitem label="Nomeados">
+        <action>NomeadosList</action>
+        <icon>fas:users-cog fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Censo">
+    <icon>fas:sign-out-alt fa-fw</icon>
+    <menu>
+      <menuitem label="Cargos da Folha">
+        <action>CargoFolhaList</action>
+        <icon>fas:broom fa-fw</icon>
+      </menuitem>
+      <menuitem label="Funções da Folha">
+        <action>FuncaoFolhaList</action>
+        <icon>fas:bread-slice fa-fw</icon>
+      </menuitem>
+      <menuitem label="Setor">
+        <action>SetorList</action>
+        <icon>fas:chess-rook fa-fw</icon>
+      </menuitem>
+      <menuitem label="Conceder Acesso">
+        <action>UsuarioUnidadeList</action>
+        <icon>fas:walking fa-fw</icon>
+      </menuitem>
+      <menuitem label="Censo">
+        <action>FolhaList</action>
+        <icon>fas:align-justify fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="UNICPE">
+    <icon>fas:sign-out-alt fa-fw</icon>
+    <menu>
+      <menuitem label="Função Gratificada/Comissinado">
+        <action>FuncaoGratiList</action>
+        <icon>fas:chess-rook fa-fw</icon>
+      </menuitem>
+      <menuitem label="Situação">
+        <action>SituacaoList</action>
+        <icon>fas:walking fa-fw</icon>
+      </menuitem>
+      <menuitem label="Servidores">
+        <action>ServidorUncipeList</action>
+        <icon>fas:align-justify fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Gestão de Pessoas">
+    <icon>fas:book fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>GestaoPessoaDashboard</action>
+        <icon>fas:tachometer-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="RH">
+        <icon>fas:address-card fa-fw</icon>
+        <menu>
+          <menuitem label="Identificar Profissional">
+            <action>ServidorGeral</action>
+            <icon>fas:user-friends fa-fw</icon>
+          </menuitem>
+          <menuitem label="Pessoa">
+            <action>ServidorList</action>
+            <icon>fas:walking fa-fw</icon>
+          </menuitem>
+          <menuitem label="Concursado">
+            <action>EstatutarioList</action>
+            <icon>fas:user-plus fa-fw</icon>
+          </menuitem>
+          <menuitem label="Contrato">
+            <action>CTDList</action>
+            <icon>fas:user-plus fa-fw</icon>
+          </menuitem>
+          <menuitem label="Comissionado">
+            <action>ComissionadoList</action>
+            <icon>fas:user-plus fa-fw</icon>
+          </menuitem>
+          <menuitem label="Mais Médicos">
+            <action>MaisMedicoList</action>
+            <icon>fas:user-plus fa-fw</icon>
+          </menuitem>
+          <menuitem label="Cessão">
+            <icon>fas:user-friends fa-fw</icon>
+            <menu>
+              <menuitem label="De Outros">
+                <action>CessaoDeList</action>
+                <icon>fas:user-plus fa-fw</icon>
+              </menuitem>
+              <menuitem label="Para Outros">
+                <action>CessaoParaList</action>
+                <icon>fas:user-plus fa-fw</icon>
+              </menuitem>
+            </menu>
+          </menuitem>
+        </menu>
+      </menuitem>
+      <menuitem label="Faltas">
+        <icon>fas:hospital fa-fw</icon>
+        <menu>
+          <menuitem label="Apontamento">
+            <action>FaltasFormList</action>
+            <icon>fas:hospital fa-fw</icon>
+          </menuitem>
+        </menu>
+      </menuitem>
+      <menuitem label="Afastamentos">
+        <icon>fas:hospital fa-fw</icon>
+        <menu>
+          <menuitem label="Tipos de Afastamento">
+            <action>TipoAfastamentoList</action>
+            <icon>fas:hospital fa-fw</icon>
+          </menuitem>
+          <menuitem label="Apontamento">
+            <action>AfastamentoList</action>
+            <icon>fas:hospital fa-fw</icon>
+          </menuitem>
+        </menu>
+      </menuitem>
+      <menuitem label="Férias">
+        <icon>fas:hospital fa-fw</icon>
+        <menu>
+          <menuitem label="Apontamento">
+            <action>FeriasList</action>
+            <icon>fas:hospital fa-fw</icon>
+          </menuitem>
+        </menu>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Processos e Documentos">
+    <icon>fas:sign-out-alt fa-fw</icon>
+    <menu>
+      <menuitem label="Tipos de Assuntos">
+        <action>TipoAssuntoList</action>
+        <icon>fas:sign-out-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="Entrada de Processos">
+        <action>ProcessosList</action>
+        <icon>fas:sign-out-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="Atendimento de Processos">
+        <action>AndamentoProcessosList</action>
+        <icon>fas:sign-out-alt fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+</menu>

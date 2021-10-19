@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design>
+    <page>
+        <format>a4</format>
+        <orientation>P</orientation>
+    </page>
+    <text id="1">
+        <class>Text</class>
+        <x>151</x>
+        <y>34</y>
+        <font>Times</font>
+        <size>11</size>
+        <text>                 &lt;b&gt;Secretaria de Saúde do Estado de Pernambuco
+Secretaria Executiva de Gestão do Trabalho e Educação na Saúde
+                        Diretoria Geral de Gestão do Trabalho
+                       Gerência de Administração de Pessoas&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <image id="2">
+        <class>Image</class>
+        <x>78</x>
+        <y>21</y>
+        <width>70</width>
+        <height>66</height>
+        <file>app/images/concurso/encam.png</file>
+    </image>
+    <text id="3">
+        <class>Text</class>
+        <x>172</x>
+        <y>119</y>
+        <font>Times</font>
+        <size>19</size>
+        <text>&lt;b&gt;APRESENTAÇÃO DO SERVIDOR&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="4">
+        <class>Text</class>
+        <x>78</x>
+        <y>184</y>
+        <font>Times</font>
+        <size>12</size>
+        <text>&lt;b&gt;Local de Trabalho:&lt;/b&gt;
+{unidade}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="5">
+        <class>Text</class>
+        <x>78</x>
+        <y>236</y>
+        <font>Times</font>
+        <size>12</size>
+        <text>Senhor(a) Diretor(a),</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="6">
+        <class>Text</class>
+        <x>78</x>
+        <y>278</y>
+        <font>Times</font>
+        <size>12</size>
+        <text>              Estamos encaminhando o(a) Sr(a), para exercer suas atividades nessa Unidade, esclarecendo
+que a comunicação de exercício só deverá ser enviada para a Gerência de Administração de Pessoas
+- GAP, quando o servidor estiver iniciado suas atividades profissionais. Alertando que a falta do cum_
+primento do Inciso II, Artigo 33 da Lei 6.123/68, implicará na perda do cargo.</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <image id="7">
+        <class>Image</class>
+        <x>236</x>
+        <y>576</y>
+        <width>131</width>
+        <height>96</height>
+        <file>app/images/concurso/ass_monica.png</file>
+    </image>
+    <text id="8">
+        <class>Text</class>
+        <x>218</x>
+        <y>546</y>
+        <font>Times</font>
+        <size>12</size>
+        <text>Recife, {dia}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="9">
+        <class>Text</class>
+        <x>78</x>
+        <y>762</y>
+        <font>Times</font>
+        <size>12</size>
+        <text>Ato de Nomeação: ATO {ato}
+Data da Publicação: {dt_publicacao}
+Data da Posse: {dt_posse}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <baseline id="10">
+        <class>Baseline</class>
+        <y>374</y>
+        <linewidth>4</linewidth>
+        <linecolor>#C0C0C0</linecolor>
+    </baseline>
+    <baseline id="11">
+        <class>Baseline</class>
+        <y>85</y>
+        <linewidth>4</linewidth>
+        <linecolor>#C0C0C0</linecolor>
+    </baseline>
+    <rectangle id="12">
+        <class>Rectangle</class>
+        <x>78</x>
+        <y>380</y>
+        <width>460</width>
+        <height>26</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="13">
+        <class>Rectangle</class>
+        <x>78</x>
+        <y>406</y>
+        <width>460</width>
+        <height>26</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="14">
+        <class>Rectangle</class>
+        <x>78</x>
+        <y>432</y>
+        <width>460</width>
+        <height>32</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <text id="15">
+        <class>Text</class>
+        <x>79</x>
+        <y>384</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;Nome:&lt;/b&gt;
+{candidato}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="16">
+        <class>Text</class>
+        <x>78</x>
+        <y>409</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;Cargo:&lt;/b&gt;
+{cargo}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="17">
+        <class>Text</class>
+        <x>78</x>
+        <y>436</y>
+        <font>Arial</font>
+        <size>10</size>
+        <text>&lt;b&gt;Função:&lt;/b&gt;
+{especialidade}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+</design>

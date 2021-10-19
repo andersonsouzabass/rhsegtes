@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design>
+    <page>
+        <format>a4</format>
+        <orientation>P</orientation>
+    </page>
+    <text id="1">
+        <class>Text</class>
+        <x>151</x>
+        <y>34</y>
+        <font>Times</font>
+        <size>11</size>
+        <text>                 &lt;b&gt;Secretaria de Saúde do Estado de Pernambuco
+Secretaria Executiva de Gestão do Trabalho e Educação na Saúde
+                        Diretoria Geral de Gestão do Trabalho
+                       Gerência de Administração de Pessoas&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <image id="2">
+        <class>Image</class>
+        <x>70</x>
+        <y>20</y>
+        <width>70</width>
+        <height>66</height>
+        <file>app/images/concurso/encam.png</file>
+    </image>
+    <text id="3">
+        <class>Text</class>
+        <x>44</x>
+        <y>130</y>
+        <font>Times</font>
+        <size>13</size>
+        <text>Ao
+&lt;b&gt;BANCO BRADESCO S/A
+Ref.: Abertura de Conta para Servidor Público&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <baseline id="4">
+        <class>Baseline</class>
+        <y>96</y>
+        <linewidth>4</linewidth>
+        <linecolor>#C0C0C0</linecolor>
+    </baseline>
+    <rectangle id="5">
+        <class>Rectangle</class>
+        <x>44</x>
+        <y>252</y>
+        <width>372</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="6">
+        <class>Rectangle</class>
+        <x>44</x>
+        <y>288</y>
+        <width>372</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="7">
+        <class>Rectangle</class>
+        <x>44</x>
+        <y>324</y>
+        <width>372</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <text id="8">
+        <class>Text</class>
+        <x>44</x>
+        <y>258</y>
+        <font>Arial</font>
+        <size>12</size>
+        <text>&lt;b&gt;Nome:&lt;/b&gt;
+{candidato}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="9">
+        <class>Text</class>
+        <x>44</x>
+        <y>294</y>
+        <font>Arial</font>
+        <size>12</size>
+        <text>&lt;b&gt;Cargo:&lt;/b&gt;
+{cargo} / {especialidade}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="10">
+        <class>Text</class>
+        <x>44</x>
+        <y>330</y>
+        <font>Arial</font>
+        <size>12</size>
+        <text>&lt;b&gt;Secretaria / Órgão&lt;/b&gt;
+SECRETARIA DE SAÚDE DO ESTADO DE PERNAMBUCO</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="11">
+        <class>Text</class>
+        <x>44</x>
+        <y>194</y>
+        <font>Times</font>
+        <size>12</size>
+        <text>Para fins de abertura de conta corrente, informamos os dados do servidor:</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <rectangle id="12">
+        <class>Rectangle</class>
+        <x>416</x>
+        <y>252</y>
+        <width>150</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="13">
+        <class>Rectangle</class>
+        <x>416</x>
+        <y>288</y>
+        <width>150</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <rectangle id="14">
+        <class>Rectangle</class>
+        <x>416</x>
+        <y>324</y>
+        <width>150</width>
+        <height>36</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <text id="15">
+        <class>Text</class>
+        <x>416</x>
+        <y>258</y>
+        <font>Arial</font>
+        <size>12</size>
+        <text>&lt;b&gt;CPF:&lt;/b&gt;
+{cpf}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="16">
+        <class>Text</class>
+        <x>416</x>
+        <y>294</y>
+        <font>Arial</font>
+        <size>12</size>
+        <text>&lt;b&gt;Data da Posse:&lt;/b&gt;
+{dt_posse}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="17">
+        <class>Text</class>
+        <x>416</x>
+        <y>330</y>
+        <font>Arial</font>
+        <size>12</size>
+        <text>&lt;b&gt;Remuneração:&lt;/b&gt;
+{remuneracao}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <baseline id="18">
+        <class>Baseline</class>
+        <y>240</y>
+        <linewidth>4</linewidth>
+        <linecolor>#C0C0C0</linecolor>
+    </baseline>
+    <text id="19">
+        <class>Text</class>
+        <x>212</x>
+        <y>456</y>
+        <font>Arial</font>
+        <size>12</size>
+        <text>Recife, {dia}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="20">
+        <class>Text</class>
+        <x>228</x>
+        <y>520</y>
+        <font>Arial</font>
+        <size>12</size>
+        <text>Atenciosamente,</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <image id="21">
+        <class>Image</class>
+        <x>222</x>
+        <y>560</y>
+        <width>139,35211267606</width>
+        <height>102</height>
+        <file>app/images/concurso/ass_monica.png</file>
+    </image>
+</design>
